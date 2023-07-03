@@ -1,0 +1,39 @@
+.Modal {
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    left: calc(50% - calc(800px / 2));
+    top: calc(50% - calc(400px / 2));
+}
+
+.Modal_content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modal_content header span {
+    cursor: pointer;
+    position: absolute;
+    top: 1em;
+    right: 2em;
+}
+
+.Modal_content main {
+    padding: 2rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+progress {
+    width: 500px;
+    height: 50px;
+}

@@ -1,0 +1,16 @@
+.ODSClass {
+    padding: 1rem 3rem;
+}
+.ODSClass_content {
+    text-align: left;
+}
+.ODSClass_back {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+}
+.ODSClass_actions {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
